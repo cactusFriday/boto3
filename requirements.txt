@@ -1,4 +1,5 @@
-botocore -e git://github.com/C2Devel/botocore.git@develop#egg==botocore
+botocore -e git+https://github.com/cactusfriday/botocore.git@add-available-vlans#egg=botocore
+# botocore -e git://github.com/C2Devel/botocore.git@develop#egg==botocore
 jmespath
 s3transfer
 nose==1.3.3
